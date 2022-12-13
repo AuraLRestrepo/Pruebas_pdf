@@ -10,25 +10,33 @@
 			font-family: Arial, Helvetica, sans-serif;
 			font-size: 20px;
 			margin: 0;
-			padding: 0;
 		}
+
+		.pagebreak {
+			display: block;
+			clear: both;
+			page-break-after: always;
+		}
+
 		.ficha{
 			text-align: center;
-			padding-bottom: 7px;
+			padding-bottom: 15px;
+			font-size: 22px;
 		}
 		.logos{
 			text-align: center;
-			padding-bottom: 7px;
+			padding-bottom: 15px;
 		}
 
 		.logos img{
-			width: 950px;
+			width: 100%;
 			object-fit: scale-down;
-			padding-bottom: 7px;
+			padding-bottom: 15px;
 		}
 		.formato{
 			text-align: center;
 			width: 100%;
+			font-size: 22px;
 		}
 
 		.dos{
@@ -47,18 +55,22 @@
 
 		.razon{
 			font-weight: 700;
+			padding: 3px;
 		}
 
 		.nit{
 			font-weight: 700;
+			padding: 3px;
 		}
 
 		.titulo{
 			font-weight: 700;
+			padding: 3px;
 		}
 
 		.resp{
 			font-weight: 400;
+			padding: 3px;
 		}
 
 		.cuatro{
@@ -217,7 +229,7 @@
 	</style>
 </head>
 <body>
-	<div style="width: 29cm;">
+	<div style="width: 29cm;" class="pagebreak">
 	<section class="uno">
 		<p class="ficha">FICHA TÉCNICA DEL FORTMATO ÚNICO DE EXTRACTO DEL CONTRATO</p>
 		<p class="logos"><img src="https://s3-us-east-2.amazonaws.com/beewoimg/fog1663912507216-1663912507216.jpeg" alt=""></p>
